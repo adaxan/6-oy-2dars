@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+    
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.user {
+    margin-top: 100px;
+    border: 1px solid black;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.user:hover {
+    box-shadow: 0 0 50px rgba(0,0,0,0.2);
+}
+
+.user img{
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+.user .id{
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.user .title{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.num{
+    margin-bottom: 10px;
+}
+
+.num .number {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.num .email {
+    font-size: 20px;
+}
+
+.addres {
+    margin-bottom: 10px;
+}
+
+.addres .reg{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cars {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
